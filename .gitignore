@@ -1,52 +1,36 @@
-# Prerequisites
-*.d
+*.py[co]
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Installer logs
+pip-log.txt
 
-# Precompiled Headers
-*.gch
-*.pch
+# Unit test / coverage reports
+htmlcov
+.coverage*
+.tox
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+#Translations
+*.mo
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+#Mr Developer
+.mr.developer.cfg
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+.DS_Store
+.idea
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Ignore user config
+user-config.json
+userapiconfig.py
+usermysql.json
